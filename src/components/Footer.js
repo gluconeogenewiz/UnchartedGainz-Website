@@ -39,7 +39,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
+            <Link to='https://www.youtube.com/watch?v=sjomZzrFYeQ&list=LL&index=10'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
         </div>

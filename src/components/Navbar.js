@@ -47,19 +47,30 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Workouts
+                Workouts <i class="fa-solid fa-person-running"></i>
               </Link>
             </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/nutrition'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Nutrition <i class="fa-solid fa-utensils"></i> 
+              </Link>
+            </li>
+
             <li className='nav-item'>
               <Link
                 to='/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Products <i class="fa-solid fa-cart-shopping"></i>
               </Link>
             </li>
-
+         
             <li>
               <Link
                 to='/sign-up'
@@ -70,7 +81,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>SIGN UP <i class="fa-regular fa-file"></i> </Button>}
         </div>
       </nav>
     </>

@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Workouts!</h1>
+      <h1>Check out these epic Workouts!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -25,7 +25,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='https://www.dmoose.com/cdn/shop/articles/1_2_1.jpg?v=1656429275'
-              text='Set Sail in the Uncharted Waters of Maximum Bicep Gainz'
+              text='Set sail in the uncharted Waters of maximum bicep gainz'
               label='Biceps'
               path='/workouts'
             />
@@ -37,7 +37,7 @@ function Cards() {
             />
             <CardItem
               src='https://www.t-nation.com/wp-content/uploads/2019/12/11-Ab-Exercises-Youll-Love-to-Hate.jpeg'
-              text='Killer Core workouts'
+              text='Washboard abs core workouts'
               label='Core'
               path='/workouts'
             />

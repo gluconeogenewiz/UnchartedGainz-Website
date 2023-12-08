@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Workouts from './components/pages/Workouts';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Nutrition from './components/pages/Nutrition';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/workouts' component={Workouts} />
           <Route path='/products' component={Products} />
           <Route path='/sign-up' component={SignUp} />
+          <Route path='/nutrition' component={Nutrition} />  
         </Switch>
       </Router>
     </>
